@@ -1001,8 +1001,6 @@ input:focus,
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
-  align-items: center;
-  justify-content: center;
 }
 
 .agree__text {
@@ -1011,6 +1009,8 @@ input:focus,
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .agree__link {
@@ -1055,7 +1055,7 @@ input:focus,
 .agree__icon {
   width: 16px;
   height: 15px;
-  display: inline-block;
+  display: block;
   border-radius: 2px;
   border: 0.2px solid #212121;
   background-color: #ffffff;
